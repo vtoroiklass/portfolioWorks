@@ -1,0 +1,58 @@
+body {
+    background: #a8a8a8;
+}
+
+.main-my-input {
+    width: 150px;
+    display: block;
+    margin: 10px auto -10px auto;
+    height: 40px;
+    padding: 0 20px;
+    border: 2px solid #101012;
+    border-radius: 15px;
+    background-color: #37393e;
+    letter-spacing: 2px;
+    text-align: right;
+    color: #f0f0f0;
+    font-size: 20px
+}
+
+.main-btn-block {
+    padding: 2px 5px;
+    border: 4px solid #3d3e44;
+    border-radius: 15px
+}
+
+.main-my-btn {
+    width: 40px;
+    margin: 3px 5px;
+    padding: 5px;
+    border: 2px solid #18191b;
+    border-radius: 20px;
+    background-color: #62656e;
+    color: #fff;
+    font-size: 18px
+}
+
+.main-my-btn:hover {
+    background-color: #55575f;
+    color: #c1c1c1
+}
+
+.main-my-btn-green-color {
+    color: #cfff86
+}
+
+.main-my-btn-green-color:hover {
+    color: #699428
+}
+
+.calc {
+    margin: 0 auto;
+    width: 230px;
+    border-radius: 20px;
+    border: 2px solid #151618;
+    margin-top: 50px;
+    background-color: #1d1e21;
+    transition: all .4s
+}
