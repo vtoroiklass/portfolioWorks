@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  color: #fff;
+  background: #181818;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  transition: all 0.3s;
+}
+
+.page-hat {
+  font-size: 21px;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 60px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.input-block {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 25px;
+}
+
+input {
+  outline: none;
+  color: #fff;
+}
+
+.portfolio-input {
+  height: 35px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid #3f3f3f;
+  font-size: 14px;
+  font-weight: 400;
+  transition: all .3s;
+}
+
+.portfolio-input:focus {
+  border-bottom: 2px solid #107EFF;
+}
+
+.portfolio-input::placeholder {
+  padding-left: 0;
+}
+
+
+/* scrollbar */
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: linear-gradient(300deg, #797f88, #4f5359);
+}
+
+/* btns */
+
+button {
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.portfolio-btn {
+  margin: 33px auto 0 auto;
+  min-width: 100px;
+  min-height: 30px;
+  background: #3137c9;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 5px 10px;
+  font-size: 17px;
+  box-shadow: 0 4px #141782;
+  transition: all 0.2s;
+}
+
+.portfolio-btn:active {
+  box-shadow: 0 2px #0a0d58;
+  transform: translateY(4px);
+}
+
+.portfolio-btn span {
+  transition: all 0.5s;
+}
+
+.portfolio-btn span {
+  position: relative;
+}
+
+.portfolio-btn span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.portfolio-btn:hover span {
+  padding-right: 15px;
+}
+
+.portfolio-btn:hover span:after {
+  opacity: 1;
+  right: -2px;
+}
+
+/* links */
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:visited {
+  color: #fff;
+}
+
+/* information about post */
+
+.additional-inf {
+  display: flex;
+  column-gap: 15px;
+  margin: 9px 0 34px 0;
+  font-size: 12px;
+  color: #828282;
+}
+
+.date-separator {
+  color: #c4c4c4;
+}
+
+.separator {
+  margin: 0 auto;
+  width: 85%;
+  height: 1px;
+  background: #1c1c1c;
+}
+
+.entry-title {
+  margin: 25px 0 0 25px;
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.post-text {
+  font-size: 14px;
+  line-height: 21px;
+  color: #d2d2d2;
+}

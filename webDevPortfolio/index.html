@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Блог front-end разработчика</title>
+  <link rel="stylesheet" href="styles/sidebar.css" />
+  <link rel="stylesheet" href="styles/headerHat.css" />
+  <link rel="stylesheet" href="styles/starting.css" />
+  <link rel="stylesheet" href="styles/main.css" />
+  <link rel="stylesheet" href="styles/message.css" />
+
+  <link rel="stylesheet" href="styles/media/mediaHeaderHat.css" />
+  <link rel="stylesheet" href="styles/media/mediaMain.css" />
+  <link rel="stylesheet" href="styles/media/mediaSidebar.css" />
+  <link rel="stylesheet" href="styles/media/mediaStarting.css" />
+
+  <link rel="shortcut icon" href="imgs/icon.png" type="image/x-icon" />
+</head>
+
+<body>
+  <button class="add-sidebar-btn sidebar-btn">
+    <img src="imgs/burger.svg" alt="" />
+  </button>
+
+  <div class="sidebar">
+    <div class="background">
+      <img src="imgs/sidebarBackground.png" alt="" height="180" width="300" />
+    </div>
+    <div class="main-content">
+      <div class="user-info">
+        <div class="user-avatar">
+          <img src="imgs/userAvatar.png" alt="" />
+        </div>
+        <div class="user-info-block">
+          <div class="user-name">Дмитрий Валак</div>
+          <div class="user-description">блог front-end разработчика</div>
+        </div>
+        <div class="social-media">
+          <a href="#">
+            <img src="imgs/socialMedia/1.svg" alt="" />
+          </a>
+          <a href="#">
+            <img src="imgs/socialMedia/2.svg" alt="" />
+          </a>
+          <a href="#">
+            <img src="imgs/socialMedia/3.svg" alt="" />
+          </a>
+        </div>
+      </div>
+      <div class="about-user">
+        <p>
+          Front-end разработчик. Практик верстки <br />
+          сайтов. Созданием сайтов занимаюсь с <br />
+          2012 года. Работал в нескольких ИТ <br />
+          компаниях и наработал более 10 000 часов в <br />
+          создании сайтов различной сложности.
+        </p>
+      </div>
+      <div class="separator"></div>
+      <div class="sections">
+        <a href="index.html"> Главная </a>
+        <a href="#" class="show-articles-btn"> Статьи </a>
+        <ul class="articles-ul">
+          <li>
+            <a href="article.html">Создание сайтов</a>
+          </li>
+          <li>
+            <a href="#">Интернет-маркетинг</a>
+          </li>
+          <li>
+            <a href="#">Интернет-маркетинг</a>
+          </li>
+        </ul>
+        <a href="#">Обо мне</a>
+        <a href="#">Реклама</a>
+        <a href="profile.html">Профиль</a>
+      </div>
+      <div class="btns-block">
+        <a href="myWorks.html">
+          <button class="user-works my-btn">Мои работы</button>
+        </a>
+        <button class="communication my-btn my-btn-blue">Написать мне</button>
+      </div>
+    </div>
+  </div>
+  <div class="wrapper">
+    <header>
+      <div class="header-hat">
+        <div class="nav">
+          <button class="nav-btn" style="margin-left: 15px">Главная</button>
+          <a href="article.html">
+            <button class="nav-btn">Статьи</button>
+          </a>
+          <button class="nav-btn">Обо мне</button>
+          <button class="nav-btn">Реклама</button>
+        </div>
+        <div class="nav-wrapper">
+          <div class="user-profile">
+            <a href="profile.html">
+              <button class="nav-btn" style="margin-left: 80px">
+                Профиль
+              </button>
+            </a>
+          </div>
+          <div class="blog-search">
+            <input type="text" class="search" placeholder="Поиск по блогу" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="media-wrapper">
+      <main>
+        <div class="story-block">
+          <div class="story-block-el">
+            <span class="story-name">
+              Отдыхаю на <br />
+              природе
+            </span>
+            <img src="imgs/storyBlog/1.png" alt="" class="story-img" />
+            <span class="date"> 21.09.2020 </span>
+          </div>
+          <div class="story-block-el">
+            <span class="story-name">
+              Заканчиваю <br />
+              сложный проект
+            </span>
+            <img src="imgs/storyBlog/2.png" alt="" class="story-img" />
+            <span class="date"> 15.09.2020 </span>
+          </div>
+          <div class="story-block-el">
+            <span class="story-name">
+              Переехал в новую <br />
+              квартиру
+            </span>
+            <img src="imgs/storyBlog/3.png" alt="" height="190" class="story-img" />
+            <span class="date"> 11.09.2020 </span>
+          </div>
+          <div class="story-block-el">
+            <span class="story-name"> Осень пришла! </span>
+            <img src="imgs/storyBlog/4.png" alt="" height="190" class="story-img" />
+            <span class="date"> 28.08.2020 </span>
+          </div>
+        </div>
+        <div class="news-block">
+          <div class="create-entry">
+            <input type="text" placeholder="Напишите что-нибудь" />
+            <button class="entry-btn">
+              <img src="imgs/entryBlock/photoBtn.svg" alt="" />
+            </button>
+            <button class="entry-btn" style="margin-left: 15px">
+              <img src="imgs/entryBlock/sendBtn.svg" alt="" />
+            </button>
+          </div>
+          <div class="entries-block"></div>
+        </div>
+      </main>
+      <footer>
+        <div class="page-nav">
+          <button class="prev-btn page-nav-btn">&lt</button>
+          <button class="prev-page page-nav-btn">1</button>
+          <button class="current-page page-nav-btn">2</button>
+          <button class="next-page page-nav-btn">3</button>
+          <button class="next-btn page-nav-btn">></button>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <div class="message">
+    <button class="close-message-btn">X</button>
+    <div class="write-and-send">
+      <input type="text" class="write-message" placeholder="Ваше сообщение &#9997;" />
+      <button class="send-message-btn">
+        <img src="imgs/sendMessage.png" alt="" width="20" />
+      </button>
+    </div>
+  </div>
+
+  <script src="scripts/message.js"></script>
+  <script src="scripts/sidebar.js"></script>
+  <script src="scripts/storyBlock.js"></script>
+  <script src="scripts/app.js"></script>
+</body>
+
+</html>

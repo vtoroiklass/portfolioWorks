@@ -1,0 +1,160 @@
+.story-block {
+  display: flex;
+  width: 600px;
+  column-gap: 13px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.story-block-el {
+  position: relative;
+  margin-top: 60px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  cursor: pointer;
+}
+
+.story-img-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 3;
+  background: #181818dc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.view-story {
+  max-height: 100vh;
+  max-width: 100vw;
+  height: 95vh;
+  width: auto;
+  border-radius: 10px;
+}
+
+.duration-wrapper {
+  position: absolute;
+  top: 35px;
+  width: 85%;
+  height: 5px;
+  background: #828282;
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 500px;
+}
+
+.duration {
+  width: 0%;
+  height: 5px;
+  background: #5e5e5e;
+  transition: all .1s;
+  max-width: 500px;
+}
+
+.close-story-btn {
+  position: absolute;
+  font-size: 25px;
+  background: none;
+  color: #828282;
+  top: 24px;
+  right: 15px;
+}
+
+.story-name {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+}
+
+.date {
+  position: absolute;
+  top: 169px;
+  left: 63px;
+}
+
+.create-entry {
+  display: flex;
+  align-items: center;
+  background: #121212;
+  border-radius: 5px;
+  width: 590px;
+  height: 74px;
+  margin: 30px auto 0 auto;
+}
+
+.create-entry input {
+  width: 470px;
+  background: none;
+  border: none;
+  height: 100%;
+}
+
+.entry-btn {
+  border-radius: 100px;
+  height: 44px;
+  width: 54px;
+  background: none;
+  width: 46px;
+  border: none;
+}
+
+.entry-wrapper {
+  position: relative;
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 30px;
+  background: #202020;
+  border-radius: 5px;
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.35);
+}
+
+.entry-img {
+  min-width: 100%;
+  border-radius: 7px;
+  height: auto;
+}
+
+.entry-text {
+  display: inline-block;
+  margin: 15px 26px 0 26px;
+}
+
+.date-wrapper {
+  height: 45px;
+}
+
+.entry-date,
+.entry-themes {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 12px;
+  color: #828282;
+  margin: 0;
+}
+
+.entry-date {
+  margin-left: 25px;
+}
+
+.page-nav {
+  width: 240px;
+  display: flex;
+  justify-content: space-between;
+  margin: 80px auto;
+}
+
+.page-nav-btn {
+  width: 40px;
+  height: 40px;
+  background: #0d0d0d;
+  border: none;
+  transition: all 0.2s;
+}
+
+.page-nav-btn:hover {
+  background: #104be3;
+}

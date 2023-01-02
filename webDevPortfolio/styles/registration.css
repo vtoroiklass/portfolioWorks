@@ -1,0 +1,38 @@
+.reg-block {
+    width: 280px;
+    margin: 60px auto 0 auto;
+}
+
+.enter {
+    text-align: center;
+}
+
+.input-block {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 25px;
+    margin-top: 59px;
+}
+
+.reg-input {
+    height: 35px;
+    width: 100%;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #3f3f3f;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.additional-actions {
+    margin: 20px auto;
+    width: 159px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.additional-btn {
+    font-size: 12px;
+    border: none;
+    background: none;
+}

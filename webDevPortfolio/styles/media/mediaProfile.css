@@ -1,0 +1,25 @@
+@media (max-width: 500px) {
+  main {
+    margin-top: 50px;
+  }
+
+  .profile-hat {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+
+  .profile-block {
+    flex-wrap: wrap-reverse;
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .input-block {
+    width: 100%;
+  }
+
+  .user-profile-avatar,
+  .input-block {
+    margin: 30px 0;
+  }
+}

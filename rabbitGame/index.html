@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <div class="www">
+        <div class="enter-name-frame">
+            <button class="close-btn">X</button>
+            <div class="enter-name first-player-name">
+                <p>Как вас зовут?</p>
+                <input type="text" class="input-name input-first-player-name">
+            </div>
+            <div class="enter-name second-player-name">
+                <p>А как зовут вашего друга?</p>
+                <input type="text" class="input-name input-second-player-name">
+            </div>
+            <div><button class="acept-btn">&#10003;</button></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="counter">
+            <div class="board">
+                <h1>Таблица очков</h1>
+                <h2 class="round"><button class="start">Начать!</button></h2>
+                <p class="timer">Желаем удачи</p>
+
+                <div class="firstPlayerTable">
+                    <h3></h3>
+                </div>
+
+                <h3>Кролик первый <br>
+                    <span style="font-weight: 500; font-size: 20px;" class="score first-score">Счет: 0</span><br>
+                    <div class="click-btn-wrapper">
+                        <div class="click-btn">W</div>
+                    </div>
+                </h3>
+                <h3>Кролик второй <br>
+                    <span style="font-weight: 500; font-size: 20px;" class="score second-score">Счет: 0</span><br>
+                    <div class="click-btn-wrapper">
+                        <div class="click-btn">O</div>
+                    </div>
+                </h3>
+            </div>
+        </div>
+        <div class="roads">
+            <div class="road1">
+                <div class="rabbit-wrapper">
+                    <div class="rabbit rabbit1">
+                        <p class="first-rabbit-name">rabbit 1</p>
+                        <img src="imgs/1626898638_3-kartinkin-com-p-krolik-piksel-art-art-krasivo-3.png"
+                            class="first-player-rabbit" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="road2">
+                <div class="rabbit-wrapper">
+                    <div class="rabbit rabbit2">
+                        <p class="second-rabbit-name">rabbit 2</p>
+                        <img src="imgs/1626898655_2-kartinkin-com-p-krolik-piksel-art-art-krasivo-2.png"
+                            class="second-player-rabbit" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>

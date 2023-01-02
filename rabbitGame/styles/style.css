@@ -1,0 +1,203 @@
+body {
+    background: url(../imgs/1625565865_3-kartinkin-com-p-trava-piksel-art-art-krasivo-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.rabbit1 img {
+    width: 250px;
+    height: 250px;
+}
+
+.rabbit2 img {
+    width: 300px;
+    height: 300px;
+}
+
+.rabbit2 {
+    margin-left: 0px;
+    transition: all 0.4s;
+}
+
+.roads {
+    position: relative;
+    /* margin-top: 50%; */
+}
+
+.board {
+    text-align: center;
+    border: 5px solid rgb(39, 25, 0);
+    width: 50%;
+    margin: 20px auto;
+    border-radius: 30px;
+    background: rgb(148, 114, 54);
+    height: 350px;
+    font-family: sans-serif;
+}
+
+.board h3 {
+    display: inline-block;
+    margin: 10px;
+}
+
+.enter-name-frame {
+    top: 0;
+    position: absolute;
+    border: 2px solid black;
+    background-color: green;
+    background-image: url(../imgs/rabbits.png);
+    background-position: bottom;
+    background-size: contain;
+    padding: 70px;
+    width: 450px;
+    border-radius: 30px;
+    transition: all 0.4s;
+}
+
+.first-player-name {
+    float: left;
+}
+
+.second-player-name {
+    float: right;
+}
+
+.enter-name {
+    font-weight: 700;
+    font-size: 20px;
+    width: 200px;
+    display: inline-block;
+}
+
+.enter-name input {
+    border-radius: 20px;
+    border: 2px solid black;
+    height: 30px;
+    font-weight: 600;
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+.enter-name p {
+    background: white;
+    height: 50px;
+    text-align: center;
+}
+
+.click-btn {
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid black;
+    width: 30px;
+    background: #858585;
+    border-radius: 8px;
+}
+
+.click-btn-wrapper {
+    margin: 0 auto;
+    padding: 1px;
+    border: 3px solid black;
+    width: 36px;
+    border-radius: 5px;
+    background: #5C5C5C;
+}
+
+
+.rabbit {
+    width: 300px;
+    text-align: center;
+}
+
+.rabbit p {
+    margin: 0 auto;
+    background: white;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    width: 50%;
+}
+
+.rabbit1 {
+    transition: all 0.4s;
+}
+
+.www {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.close-btn {
+    position: absolute;
+    /* float: right; */
+    right: 20px;
+    top: 20px;
+    background: #5EC45E;
+    opacity: 0.8;
+    width: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #306530;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.close-btn:hover {
+    opacity: 1;
+    box-shadow: 2px 3px 5px #152C15;
+}
+
+.start {
+    font-weight: 600;
+    padding-left: -20px;
+    font-size: 20px;
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #C1AD8B;
+    background-image: url(../imgs/startGame.png);
+    background-size: 80px;
+    background-position: left;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.timer {
+    font-size: 20px;
+    font-weight: 600;
+    height: 40px;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 750;
+}
+
+.acept-btn {
+    width: 50px;
+    position: absolute;
+    top: 75%;
+    /* height: 40px; */
+    font-size: 30px;
+    font-weight: 900;
+    border: 2px solid #306530;
+    border-radius: 8px;
+    background: #5EC45E;
+    opacity: 0.8;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.acept-btn:hover {
+    opacity: 1;
+    box-shadow: 2px 3px 5px #152C15;
+}

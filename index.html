@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Портфолио</title>
-    <link rel="stylesheet" href="main.css" />
-    <link rel="stylesheet" href="scrollbar.css" />
-  </head>
-  <body>
-    <button class="switch-mod-button">Темный режим</button>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Портфолио</title>
+  <link rel="stylesheet" href="main.css" />
+  <link rel="stylesheet" href="scrollbar.css" />
+</head>
+
+<body>
+  <button class="switch-mod-button">Темный режим</button>
+  <div class="wrapper">
     <header>
       <h1>Сокол Александр Дмитриевич</h1>
       <h2>Портфолио</h2>
@@ -17,18 +20,31 @@
     <main>
       <b>Мои работы:</b>
       <ul>
-        <li>
-          Пет-проект: <br />
-          <a
-            href="https://vtoroiklass.github.io/portfolioProject/"
-            target="_blank"
-          >
-            Верстка портфолио веб-разработчика
+        <li>Пет-проект: <br />
+          <a href="webDevPortfolio/index.html" target="_blank">
+            Многостраничная адаптивная верстка портфолио веб-разработчика
           </a>
         </li>
-        <li>
-          Пет-проект: <br />
-          <a href="#"> Мини-игра про гонки зайцев на чистом JS </a>
+        <li>Пет-проект: <br>
+          <a href="aimTraining/index.html" target="_blank">Мини-игра по тренировки точности</a>
+        </li>
+        <li>Пет-проект: <br>
+          <a href="random/index.html" target="_blank">Генератор паролей написанный на чистом JS</a>
+        </li>
+        <li>Пет-проект: <br>
+          <a href="designerPortfolio/index.html" target="_blank">Адаптивная верстка простого макета с портфолио
+            дизайнера</a>
+        </li>
+        <li>Пет-проект: <br>
+          <a href="galary/index.html" target="_blank">Галерея изображений написанная на чистом JS</a>
+        </li>
+        <li>Пет-проект: <br>
+          <a href="jsSlider/index.html" target="_blank">Бесконечный слайдер написанный на чистом js</a>
+        </li>
+        <li>Пет-проект: <br />
+          <a href="rabbitGame/index.html" target="_blank"> Мини-игра про гонки зайцев на чистом JS </a><br>
+          <span class="additional-info">(Находится в разработке - готов только один раунд из трех
+            запланированных)</span>
         </li>
         <li>
           Пет-проект: <br />
@@ -36,22 +52,26 @@
         </li>
         <li>
           Пет-проект: <br />
-          <a href="#"> Магазин кроссовок написанный на React </a>
+          <a href="#"> Магазин кроссовок написанный на React </a> <br>
+          <span class="additional-info">(Находится в разработке)</span>
         </li>
         <li>
           Пет-проект: <br />
-          <a href="#"> Калькулятор на чистом JS </a>
+          <a href="calculator/index.html" target="_blank"> Калькулятор на чистом JS </a> <br>
+          <span class="additional-info">(Находится в разработке)</span>
         </li>
         <li>
           Пет-проект: <br />
-          <a href="#"> Бесконечный слайдер написанным на чистом JS </a>
+          <a href="#"> Бесконечный слайдер написанным на чистом JS </a> <br>
+          <span class="additional-info">(Находится в разработке)</span>
         </li>
         <li>
           Пет-проект: <br />
           Мой первый проект. <br />
           <a href="https://vtoroiklass.github.io/" target="_blank">
             Кривой, без адаптивной верстки сайт с такими же кривыми работами
-          </a>
+          </a> <br>
+          <span class="additional-info">(Планирую преобразовывать)</span>
         </li>
       </ul>
     </main>
@@ -66,7 +86,8 @@
         <a href="#" class="social-info">HH.ru</a>
       </div>
     </footer>
+  </div>
+  <script src="app.js"></script>
+</body>
 
-    <script src="app.js"></script>
-  </body>
 </html>

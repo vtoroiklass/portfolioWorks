@@ -1,0 +1,90 @@
+.sidebar {
+  left: -100%;
+  position: fixed;
+  width: 300px;
+  height: 100%;
+  background: #202020;
+  transition: all .3s;
+  z-index: 1;
+}
+
+.user-avatar img {
+  position: absolute;
+  top: 120px;
+  left: 75px;
+}
+
+.user-info {
+  text-align: center;
+}
+
+.user-name {
+  margin-top: 69px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.user-description {
+  color: #dedede;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 300;
+}
+
+.social-media {
+  display: flex;
+  margin: 0 auto;
+  width: 105px;
+  column-gap: 15px;
+  margin-top: 17px;
+}
+
+.about-user {
+  text-align: center;
+  font-weight: 400;
+  font-size: 12px;
+  margin-top: 60px;
+}
+
+.btns-block {
+  display: flex;
+  justify-content: space-between;
+  margin: 60px auto 0 auto;
+  width: 260px;
+}
+
+.my-btn {
+  border-radius: 25px;
+  border: none;
+  box-shadow: 0px 7px 17px -10px rgba(242, 63, 63, 0.2);
+  background: #ed3024;
+  width: 120px;
+  height: 40px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 500;
+  transition: all .3s;
+}
+
+.my-btn:hover {
+  background: #ad2319;
+  box-shadow: 5px 6px 15px #111111;
+}
+
+.my-btn:active {
+  transform: translateY(4px);
+}
+
+.my-btn-blue {
+  background: #3137C9;
+}
+
+.my-btn-blue:hover {
+  background: #272ba5;
+}
+
+.sections {
+  display: none;
+}

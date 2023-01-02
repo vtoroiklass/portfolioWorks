@@ -1,0 +1,44 @@
+@media (max-width: 500px) {
+  .story-block {
+    margin-top: 60px;
+    border-radius: 10px;
+  }
+
+  .story-block::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+
+  .story-block {
+    margin-top: 0;
+  }
+
+  .view-story {
+    max-height: 100vh;
+    max-width: 100vw;
+    width: 100vw;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .create-entry {
+    display: none;
+  }
+
+  .entry-wrapper {
+    position: relative;
+  }
+
+  .story-block,
+  .entry-wrapper {
+    width: 85%;
+  }
+
+  .entry-img {
+    width: 100%;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+
+}
