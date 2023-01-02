@@ -1,0 +1,98 @@
+body {
+    background: rgb(158, 158, 158);
+    overflow-x: hidden;
+}
+
+.slider {
+    position: relative;
+    min-width: 60%;
+    max-width: 60%;
+    margin: 20px auto;
+    min-height: 500px;
+    max-height: 500px;
+    border: 2px solid rgb(30, 30, 30);
+    border-radius: 15px;
+    overflow: hidden;
+    background: rgba(92, 86, 86, 0.618);
+    box-shadow: 3px 2px 5px rgb(77, 77, 77);
+}
+
+.slides img {
+    display: block;
+    max-height: 500px;
+    margin: 0 auto;
+    transition: all 0.5s;
+}
+
+.slides {
+    display: flex;
+    margin: 0 auto;
+}
+
+.slides-item {
+    min-width: 100%;
+    display: flexbox;
+}
+
+.slides-item1 {
+    transition: all 0.5s;
+}
+
+.slides-item2 {
+    margin-left: -100%;
+    transition: all 0.5s;
+}
+
+.my-btn {
+    position: absolute;
+    width: 55px;
+    height: 100%;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: sans-serif;
+    opacity: 0.3;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.my-btn:hover {
+    opacity: 0.8;
+}
+
+.next-btn {
+    right: 0;
+}
+
+.board-wrapper {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.my-separator {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 75%;
+    height: 3px;
+    border-radius: 100px;
+    background: #777777;
+}
+
+.my-circles {
+    margin: 10px;
+    margin-top: 25px;
+    border-radius: 100px;
+    width: 5px;
+    height: 5px;
+    cursor: pointer;
+    transition: all 0.2s;
+    margin: 0 auto;
+}
+
+.counter-board {
+    margin: 0 auto;
+    width: 200px;
+    display: flex;
+}
