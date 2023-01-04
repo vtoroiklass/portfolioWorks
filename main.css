@@ -70,6 +70,11 @@ ul {
 
 .additional-info {
   color: #3c3c3cb9;
+  cursor: default;
+}
+
+.additional-info:hover {
+  color: #4d4d4db9;
 }
 
 .my-separator {

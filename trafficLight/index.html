@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <h1>Светофор для пешеходов</h1>
+        <div class="options-block">
+            <input type="number" class="choose-time-input" placeholder="Выберите, сколько будет гореть красный цвет">
+            <input type="number" class="choose-time-input" placeholder="Выберите, сколько будет гореть оранжевый цвет">
+            <input type="number" class="choose-time-input" placeholder="Выберите, сколько будет гореть зеленый цвет">
+        </div>
+        <div class="traffic-wrapper">
+            <div class="traffic-light">
+                <div class="lights">
+                    <div class="light-el"></div>
+                    <div class="light-el"></div>
+                    <div class="light-el"></div>
+                </div>
+            </div>
+            <div class="additional">
+                <button class="reboot-btn">
+                    Перезагрузить <br>
+                    &#8635;
+                </button>
+                <div class="timer">
+                    <span class="time">
+                        нужно ждать: <br>
+                        <!-- <b class="wait">10 <span class=""></span></b> -->
+                        секунд
+                    </span>
+                </div>
+            </div>
+        </div>
+        <button class="start-btn">
+            Start
+        </button>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
