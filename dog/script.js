@@ -11,7 +11,7 @@ let btnReload = document.querySelector('.btn-reload-page');
 let currentImageIndex = 0;
 
 let arrayImg = [];
-arrayImg.push("https://i.gifer.com/ent.gif");
+arrayImg.push('gif/dancingdog.gif');
 arrayImg.push('gif/drinkwaterdog.gif');
 arrayImg.push('gif/agreeingdog.gif');
 arrayImg.push('gif/superdog.gif');
